@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+<!--- 
+TODO:
+Change web settings and refactor index.js
+-->
+
+{% block content %}
+<div class="container">
+    <div id="messages" class="overflow-auto msgs" style="overflow-y: scroll; height:500px;">
+    </div>
+    <form id="msgForm" action="" method="POST" style="bottom:0; margin: 0% 0% 0% 0%;">
+        <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Message" aria-label="Message" id="msg">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="submit" id="sendBtn">Send</button>
+              </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

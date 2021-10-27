@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div id="messages" class="overflow-auto msgs"> </div>
+    <form id="msgform" action="" method="POST">
+        <div class="input-group mb-4">
+              <input type="text" class="form-control" placeholder="Message" aria-label="Message" id="msg">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="submit" id="sendBtn">Send</button>
+              </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
