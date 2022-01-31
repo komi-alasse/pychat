@@ -1,4 +1,4 @@
-# chatroom
+# Chatroom
 Python chatroom written using flask. 
 
 
