@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/Jumpman/Library/Mobile Documents/com~apple~CloudDocs/projects/pychat/app/env"
+set -gx VIRTUAL_ENV "/Users/Jumpman/Library/Mobile Documents/com~apple~CloudDocs/projects/pychat/src/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
